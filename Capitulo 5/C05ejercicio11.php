@@ -41,8 +41,8 @@ en español y dará la correspondiente traducción en inglés.
              }
         
          } 
-        
-         if($encontrada == false){
+        //es como poner false
+         if(!$encontrada){
              
              echo "Lo siento no pude encontrar esa palabra";
              

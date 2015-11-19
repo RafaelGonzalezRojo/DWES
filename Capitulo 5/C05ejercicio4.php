@@ -102,8 +102,11 @@ Los números que se han cambiado deben aparecer resaltados de un color diferente
         //lo exporta aki despues de el formulario antes de eso se tiene que meter en otra variable
            
                 foreach ($randomarray as $n) {
-          
-            
+                              if(($cont2 % 10) == 0){
+                                  
+                                  echo "<br>";
+                              }
+                        
                             if($n == $rojo){
                
                                 echo "<span style= color:red; font-weight: italic;\> ", $sustituir , " </span>";
@@ -116,7 +119,8 @@ Los números que se han cambiado deben aparecer resaltados de un color diferente
 
 
                             }
-                
+                            
+                            $cont2++;
                 
                  } 
          
